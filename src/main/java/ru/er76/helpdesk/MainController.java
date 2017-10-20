@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 @Controller
 public class MainController {
 
-    @RequestMapping("/hello")
+    @RequestMapping("/helpdesk/hello")
     public String index(Model model) {
         model.addAttribute("name", "sdgsdg");
         return "hello";
